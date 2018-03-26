@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evnto.indotech.evnto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gwalioritem.Gwalior"
+            android:label="@string/title_activity_gwalior"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hungary.hungarynow"
+            android:label="@string/title_activity_hungarynow"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".offerpackage.Offers"
+            android:label="@string/title_activity_offers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventPlanner.WeddingPlanners"
+            android:label="@string/title_activity_wedding_planners"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventPlanner.EventPlanners"
+            android:label="@string/title_activity_event_planners"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main.splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".BookTable.BookingTable"
+            android:label="@string/title_activity_booking_table"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Birthday.BirthdayParty"
+            android:label="@string/title_activity_birthday_party"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Birthday.SurpriseParty"
+            android:label="@string/title_activity_surprise_party"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main.WelcomeActivity"
+            android:label="EvntO"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OnItemClic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Giftspackage.GiftsActivity"
+            android:label="@string/title_activity_gifts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login.Insert" />
+        <activity android:name=".PhoneAuthActivity" />
+        <activity android:name=".TermsConditions" />
+        <activity android:name=".InsertOrder.Insert" />
+        <activity android:name=".UpcmingEvnt.UpcomeingEvent" />
+        <activity android:name=".UpcmingEvnt.NextUpcm" />
+        <activity
+            android:name=".Nonveg.NonVeg"
+            android:label="@string/title_activity_non_veg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CPD.CakePastyDrinks"
+            android:label="@string/title_activity_cake_pasty_drinks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About" />
+        <activity android:name=".Italian" />
+        <activity android:name=".Chinese" />
+        <activity android:name=".South" />
+        <activity android:name=".North" />
+        <activity android:name=".FastFood"></activity>
+    </application>
+
+</manifest>
