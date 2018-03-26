@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/signin"
+            android:icon="@drawable/signin"
+            android:title="Sign In">
+        </item>
+        <item
+            android:id="@+id/offers"
+            android:icon="@drawable/offericon"
+            android:title="Offers" />
+        <item
+            android:id="@+id/gifts"
+            android:icon="@drawable/giftspng"
+            android:title="Gifts" />
+        <item
+            android:id="@+id/orderfood"
+            android:icon="@drawable/orderfood"
+            android:title="Order Food Now" />
+
+        <item
+            android:id="@+id/evnt"
+            android:icon="@drawable/eventicon"
+            android:title="Event Planners" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/invite"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite" />
+            <item
+                android:id="@+id/ratereview"
+                android:icon="@mipmap/star"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/fbicon"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/email"
+                android:icon="@drawable/emailicon"
+                android:title="Email" />
+            <item
+            android:id="@+id/callnow"
+            android:icon="@drawable/callnowicon"
+            android:title="Call Now" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+
+
+        </menu>
+    </item>
+
+</menu>
